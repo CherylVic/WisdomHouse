@@ -1,0 +1,967 @@
+{
+  "version": "1.0",
+  "events": [
+    {
+      "head": {
+        "id": "158598a7-b630-4260-898a-43edf7196c5b",
+        "name": "hvigor daemon: Set daemon process log level, logLevel=INFO",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607656671992400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "bc88a8eb-1d99-41f0-83b3-07645d4f5350",
+        "name": "45000 is occupied by hvigor daemon.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607656678845900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "53eb0160-0b16-4ad0-a2a9-03e34d13215e",
+        "name": "45001 is occupied by other process.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607656708271900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "56c521b2-ce91-43ef-9729-09dfcdf1bb05",
+        "name": "hvigor daemon: Server start to listen. port=45002",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607656711746900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "e088b56e-88f2-49b9-9de6-5b3100ae4e9a",
+        "name": "hvigor daemon: listening connection. address=127.0.0.1, port=45002.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607656714665200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "332a44d7-641c-4f53-8fb3-7bf1499faae8",
+        "name": "hvigor daemon: Create default daemon info. execArgv=",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607656716016600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "581c21c5-e46e-4346-9ec4-500d0ee44c3f",
+        "name": "hvigor daemon: Socket is connected. socketId=VV9bnGu5tEak7OmvAAAB, connectionCount=1",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607656758795800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "8ddfa674-8b04-49dc-8e9a-3b51c85c3e2d",
+        "name": "hvigor daemon: daemonState=idle \n      daemonInfo=[{\"keyId\":\"b7d58af9335782affd9ae828785b82e6ea9b6052\",\"hvigorVersion\":\"3.0.9\",\"cwdPath\":\"D:\\\\Huawei\\\\projects\\\\lesson2314_01\",\"nodeVersion\":\"v16.20.1\",\"nodeParams\":\"e31dfdc15710d70251b68f3b2f632782\",\"address\":\"127.0.0.1\",\"port\":45000,\"pid\":14452,\"state\":\"idle\",\"lastUsedTime\":1795420016675,\"info\":null,\"createdBy\":\"deveco\",\"sessionId\":\"0000005097664e3c22d70b14c773e872ed17e35b5f58dbae4d00b1c6dd32dcd0fbc0ca0638591bdb52e40144f1ff09a4aab988359eda78b683836a08f524efb07526e5d054ff2ea102073da74045b6d6dc891c63b0c7743c808ea3b77d447c9d\"},{\"keyId\":\"dd7f906082f1215fc0b61d39e210ef2a1a464886\",\"hvigorVersion\":\"3.2.4\",\"cwdPath\":\"D:\\\\Huawei\\\\projects\\\\WisdomHouse_App\",\"nodeVersion\":\"v16.20.1\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"address\":\"127.0.0.1\",\"port\":45001,\"pid\":37736,\"state\":\"broken\",\"lastUsedTime\":1795421708179,\"info\":\"The process with pid 37736 does not exist.\",\"createdBy\":\"deveco\",\"sessionId\":\"00000050d01dee8795ef51b675cd2a5900e939298178492671a80cd6f7f5028faada80f889772d937181d3985f5c914ad84313436bf3206121aa6cc258efa9674d89f0665a231e3f3fc7bdb2d97cc4c114327748085fa44e8e044159a17939bc\"},{\"pid\":6220,\"state\":\"idle\",\"address\":\"127.0.0.1\",\"cwdPath\":\"D:\\\\Huawei\\\\projects\\\\WisdomHouse_App\",\"hvigorVersion\":\"3.2.4\",\"keyId\":\"08915f2a8eaf6f21acfe7691178cc593497079ac\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"nodeVersion\":\"v16.20.1\",\"port\":45002,\"lastUsedTime\":1795421716781,\"createdBy\":\"deveco\",\"sessionId\":\"000000506a0e9ab6a653971b7be2c01476d3b9b08da96993b8f25b12f729694f03edf7c6909e073a9e3dcb48f2d273235b297dcb071f8ebcc30bd4ee42f63adba687c8be9e077682d9efae126e1e006c2c677d55f5620c64c1edd184fb28fbb6\"}]",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607656762095000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "a849be02-b220-46a2-b40e-93a742f9beb4",
+        "name": "hvigor daemon: Update daemon info in registry. daemonInfo={\"pid\":6220,\"state\":\"half_busy\",\"address\":\"127.0.0.1\",\"cwdPath\":\"D:\\\\Huawei\\\\projects\\\\WisdomHouse_App\",\"hvigorVersion\":\"3.2.4\",\"keyId\":\"08915f2a8eaf6f21acfe7691178cc593497079ac\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"nodeVersion\":\"v16.20.1\",\"port\":45002,\"lastUsedTime\":1795421716781,\"createdBy\":\"deveco\",\"sessionId\":\"000000506a0e9ab6a653971b7be2c01476d3b9b08da96993b8f25b12f729694f03edf7c6909e073a9e3dcb48f2d273235b297dcb071f8ebcc30bd4ee42f63adba687c8be9e077682d9efae126e1e006c2c677d55f5620c64c1edd184fb28fbb6\"}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607656763669800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "3943c953-80b8-42a1-b887-91116f74a76f",
+        "name": "set active socket. socketId=VV9bnGu5tEak7OmvAAAB",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607656773897400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "8ac74018-5530-4046-9940-154b64af05dd",
+        "name": "hvigor daemon: Update daemon info in registry. daemonInfo={\"pid\":6220,\"state\":\"stopReq\",\"address\":\"127.0.0.1\",\"cwdPath\":\"D:\\\\Huawei\\\\projects\\\\WisdomHouse_App\",\"hvigorVersion\":\"3.2.4\",\"keyId\":\"08915f2a8eaf6f21acfe7691178cc593497079ac\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"nodeVersion\":\"v16.20.1\",\"port\":45002,\"lastUsedTime\":1795421716827,\"createdBy\":\"deveco\",\"sessionId\":\"000000506a0e9ab6a653971b7be2c01476d3b9b08da96993b8f25b12f729694f03edf7c6909e073a9e3dcb48f2d273235b297dcb071f8ebcc30bd4ee42f63adba687c8be9e077682d9efae126e1e006c2c677d55f5620c64c1edd184fb28fbb6\"}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607656776112300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "0a16fb4b-b2cf-442a-a271-a84a691a4467",
+        "name": "hvigor daemon: Receive data from client. data={ prop: [], parallel: true, incremental: true, daemon: true, _: [] }.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607656781683900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "11cba5a2-f5b3-4a2f-a6a0-cc925958e536",
+        "name": "hvigor daemon: Build start.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607656783655600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "a0ee9093-e70c-4c0e-b055-06fe81d6022b",
+        "name": "hvigor daemon: Update daemon info in registry. daemonInfo={\"pid\":6220,\"state\":\"busy\",\"address\":\"127.0.0.1\",\"cwdPath\":\"D:\\\\Huawei\\\\projects\\\\WisdomHouse_App\",\"hvigorVersion\":\"3.2.4\",\"keyId\":\"08915f2a8eaf6f21acfe7691178cc593497079ac\",\"nodeParams\":\"a3c7cac23ce8db547a7b07254455e2f6\",\"nodeVersion\":\"v16.20.1\",\"port\":45002,\"lastUsedTime\":1795421716839,\"createdBy\":\"deveco\",\"sessionId\":\"000000506a0e9ab6a653971b7be2c01476d3b9b08da96993b8f25b12f729694f03edf7c6909e073a9e3dcb48f2d273235b297dcb071f8ebcc30bd4ee42f63adba687c8be9e077682d9efae126e1e006c2c677d55f5620c64c1edd184fb28fbb6\"}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607656789278300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "24178b1d-cb8e-4b97-884d-7699a32c0879",
+        "name": "Hvigor init with startParameters:{\n  hvigorfileTypeCheck: false,\n  parallelExecution: true,\n  incrementalExecution: true,\n  printStackTrace: false,\n  daemon: true,\n  analyze: 0,\n  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' },\n  enableSignTask: true\n}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607656798489200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "8bb4ea45-9786-4695-b23f-32d36cdf6a60",
+        "name": "Cache service initialization finished in 8 ms ",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607656806487200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "6deefe83-c4d6-4e50-a483-4d1df8cf1612",
+        "name": "hvigorfile, resolving D:\\Huawei\\projects\\WisdomHouse_App\\hvigorfile.ts",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607656816477300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "77dc611b-2385-4288-901b-618d00310fe8",
+        "name": "hvigorfile, require result:  { default: { system: [Function: appTasks], plugins: [] } }",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661416117100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "945a4c2d-b833-46fa-950a-bb0b361565ef",
+        "name": "hvigorfile, binding system plugins [Function: appTasks]",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661416267200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "03c4d799-5b4f-43a1-8c5c-4b5cc474cb45",
+        "name": "hvigorfile, binding custom plugins []",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661606836500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "f3ffbde2-869a-47ce-b56a-d2cf113e4e56",
+        "name": "hvigorfile, no custom plugins were found in D:\\Huawei\\projects\\WisdomHouse_App\\hvigorfile.ts",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661606859000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "f72aa456-7500-46e5-b567-45328bee0d9b",
+        "name": "hvigorfile, resolve finished D:\\Huawei\\projects\\WisdomHouse_App\\hvigorfile.ts",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661606865200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "8a5302bb-ecf3-4000-99b0-a2428c43bd32",
+        "name": "hvigorfile, resolving D:\\Huawei\\projects\\WisdomHouse_App\\entry\\hvigorfile.ts",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661609967200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "33ba35c8-82f8-4fab-bee8-3e906acb11a4",
+        "name": "hvigorfile, require result:  { default: { system: [Function: hapTasks], plugins: [] } }",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661618205100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "03f5effe-b53a-452e-bf79-59e8a31d4ab1",
+        "name": "hvigorfile, binding system plugins [Function: hapTasks]",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661618232500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "67000c24-a3a5-4427-958f-ab65383b4a49",
+        "name": "Module entry Collected Dependency: ",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661631296700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "6d95f2c0-787b-4c52-a85f-ac496bc1ad2b",
+        "name": "Module entry's total dependency: 0",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661631321300
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "b99abaa3-e6fe-43ff-ab7a-e00de8138154",
+        "name": "Start initialize module-target build option map, moduleName=entry, buildMode=debug",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661635975700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "627eca35-0d4a-4e74-bda0-9eb5c9ece28b",
+        "name": "Target 'default' config: {}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661636149800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "3e9a86c6-89b6-4691-8c06-330f7945f8d2",
+        "name": "Target 'ohosTest' config: {}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661636685400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "be0c3274-259e-4b33-9e06-56c626b47a01",
+        "name": "Module 'entry' target 'default' build option: {\n  \"debuggable\": true,\n  \"copyFrom\": \"default\"\n}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661636763400
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "ecea2b40-90b9-444c-a23d-40fd220c3ab7",
+        "name": "Module 'entry' target 'ohosTest' build option: {\n  \"debuggable\": true\n}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661636771600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "f855f09d-3961-47f9-8c4c-211f5f378c6c",
+        "name": "End initialize module-target build option map, moduleName=entry",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661636775900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "a32ce765-bf5a-4db9-abfe-82fcaab98cda",
+        "name": "Module 'entry' target 'default' using build option: {\n  \"debuggable\": true,\n  \"copyFrom\": \"default\"\n} in this build.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661637045500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "957de307-cc1c-45ef-8461-edb54815e767",
+        "name": "require SDK: toolchains,ArkTS; moduleName=entry",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661639411800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "40f298cb-0107-4ff7-91c2-c9dc2b970106",
+        "name": "Module entry task initialization takes 7 ms ",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661648556000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "a25a9d93-df54-4402-8971-913448bd2cb7",
+        "name": "hvigorfile, binding custom plugins []",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661648612600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "832047c9-7417-4cee-8b93-3f7287b553fa",
+        "name": "hvigorfile, no custom plugins were found in D:\\Huawei\\projects\\WisdomHouse_App\\entry\\hvigorfile.ts",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661648621200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "61859832-b382-457d-b672-bbf1ba1dd9e3",
+        "name": "hvigorfile, resolve finished D:\\Huawei\\projects\\WisdomHouse_App\\entry\\hvigorfile.ts",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661648625700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "75f933ae-339a-44a2-993c-2bf208917439",
+        "name": "Start initialize project's product build option map with build mode debug.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661649203700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "6b762ae6-b794-41ef-818d-b2c6b26df733",
+        "name": "Picking option from product 'default' with build mode 'debug'.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661649330800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "ab804b89-819f-4556-a6f4-eb99e1d0ef3f",
+        "name": "Product 'default' build option: {}",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661649371700
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "3a6f6a41-5f3e-430f-ad06-7fcc6fd72b02",
+        "name": "End initialize project's product build option map with build mode 'debug'.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661649377600
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "d05491e5-70e6-46dd-ba7c-7e199afc9297",
+        "name": "Module WisdomHouse_App Collected Dependency: ",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661650561800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "3c12fb96-b7d1-4fb0-a78b-755cd0712a53",
+        "name": "Module WisdomHouse_App's total dependency: 0",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661650577500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "0675bb2c-e8c3-462d-950f-75febaeeb60b",
+        "name": "Product 'default' using build option: {\n  \"debuggable\": true\n} in this build.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661654285800
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "0eace784-193d-4501-900a-5d81b1311943",
+        "name": "Sdk init in 7 ms ",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661665690200
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "37ea6717-13c5-433f-b6ba-9867e0fbcd66",
+        "name": "project has submodules:entry",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661698012500
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "a7facbe1-b3f7-44d4-926c-787b9d622125",
+        "name": "Project task initialization takes 38 ms ",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661703009900
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "2752fb1a-2823-4029-8b1b-ebae253d0c49",
+        "name": "Sdk init in 8 ms ",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661710555000
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "45ca9bf6-fcce-4dd3-8106-d20f8190de2b",
+        "name": "Configuration phase cost:4 s 908 ms ",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661714491100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "3859bc4b-bbcc-4e38-8253-abf857b7e72f",
+        "name": "Configuration task cost before running: 4 s 921 ms ",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661716201100
+      },
+      "additional": {
+        "logType": "debug",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "92815019-1212-4d11-a145-7b4bb881bab4",
+        "name": "Task '' not found in root project 'WisdomHouse_App'. Invalid command to execute the build task, please verify the parameters in the command and try again.",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661716545900
+      },
+      "additional": {
+        "logType": "error",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "18933b34-2df9-4be5-927e-e0b016f6e6c9",
+        "name": "* Try the following:\n> Run 'hvigorw --help' to learn more about hvigor command.\n> Run 'hvigorw tasks' to get a list of available tasks.\n> Run the command with '--info' or '--debug' option to get more log output.\n",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661717649000
+      },
+      "additional": {
+        "logType": "info",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "99aa4cdc-7750-4826-afeb-1d6526c3dd63",
+        "name": "BUILD FAILED in 4 s 922 ms ",
+        "description": "",
+        "type": "log"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607661717882400
+      },
+      "additional": {
+        "logType": "error",
+        "children": []
+      }
+    },
+    {
+      "head": {
+        "id": "3976155f-b438-4bb0-be45-22fc277ca8f2",
+        "name": "",
+        "description": "",
+        "type": "mark"
+      },
+      "body": {
+        "pid": 6220,
+        "tid": "Main Thread",
+        "startTime": 607656795348400,
+        "endTime": 607661718185300
+      },
+      "additional": {
+        "time": {
+          "year": 2026,
+          "month": 11,
+          "day": 23,
+          "hour": 16,
+          "minute": 15
+        },
+        "markType": "history",
+        "category": "build",
+        "state": "failed"
+      }
+    }
+  ],
+  "workLog": []
+}

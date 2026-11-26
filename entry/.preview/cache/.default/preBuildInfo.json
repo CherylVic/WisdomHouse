@@ -1,0 +1,5 @@
+{
+  "buildMode": "debug",
+  "bundleName": "com.example.wisdomhouse_cloud",
+  "moduleName": "entry"
+}

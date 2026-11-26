@@ -1,0 +1,40 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "material": {
+          "certpath": "C:\\Users\\hope-\\.ohos\\config\\openharmony\\auto_ohos_default_WisdomHouse_App_com.example.wisdomhouse_cloud.cer",
+          "storePassword": "0000001BFEE91FA97509972E518D8028543F9AC7B65D7917B8A0EC6CC113AF1BCA48AB5E8C1B867AE47B22",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B18CC0B246BB043C6736AE6D9075C577A76FA8E40794E30501AA3E2045380E22B7525A68AB0B46A",
+          "profile": "C:\\Users\\hope-\\.ohos\\config\\openharmony\\auto_ohos_default_WisdomHouse_App_com.example.wisdomhouse_cloud.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\hope-\\.ohos\\config\\openharmony\\auto_ohos_default_WisdomHouse_App_com.example.wisdomhouse_cloud.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

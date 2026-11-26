@@ -1,0 +1,11 @@
+{
+  "list": [
+    "entry/src/main/ets/entryability/EntryAbility.ts",
+    "entry/src/main/ets/pages/Index.ets",
+    "entry/src/main/ets/pages/SearchDevice.ets",
+    "entry/src/main/ets/pages/WisdomHouse.ets",
+    "entry/src/main/ets/pages/DeviceList.ets",
+    "entry/src/main/ets/entryability/UdpProcess.ts",
+    "entry/src/main/ets/entryability/Protocol.ts"
+  ]
+}
